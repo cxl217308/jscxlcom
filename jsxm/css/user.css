@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+#top {
+  width: 100%;
+  height: 125px;
+  position: fixed;
+  z-index: 2;
+}
+#nav1 {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 14, 34, 0.9);
+  text-align: center;
+  line-height: 70px;
+}
+#nav1 h2 {
+  float: left;
+  color: white;
+}
+#nav1 img {
+  width: 300px;
+  height: 20px;
+}
+#nva2 {
+  width: 100%;
+  height: 55px;
+  background-color: rgba(0, 14, 34, 0.2);
+}
+#nva2 div {
+  margin: auto;
+  width: 400px;
+}
+#nva2 li {
+  float: left;
+}
+#nva2 li a {
+  color: white;
+  line-height: 55px;
+  margin-left: 13px;
+
+}
+#imgs {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 450px;
+  min-width: 1000px;
+  zoom: 1;
+  background-color: #fff;
+  background: url(https://timeclub.danielwellington.cn/assets/img/pad/login_banner.jpg) no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+#imgszt {
+  color: white;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  line-height: 60px;
+}
+#imgszt span {
+  font-size: 16px;
+}
+#imgszt h2 {
+  font-size: 13px;
+}
+#wu {
+  width: 100%;
+  height: 550px;
+}
+#register {
+  font-size: 15px;
+  width: 405px;
+  height: 625px;
+  margin: auto;
+  line-height: 40px;
+}
+#register .che {
+  width: 12px;
+  height: 12px;
+}
+#register #dl {
+  margin-top: 20px;
+}
+#register input {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+#register #ffa {
+  display: flex;
+  justify-content: space-around;
+}
+#register #ffa p {
+  display: flex;
+  flex-direction: column;
+}
+#register #ffa img {
+  width: 40px;
+  height: 40px;
+}
+#signin {
+  width: 405px;
+  height: 625px;
+  margin: auto;
+  line-height: 40px;
+}
+#signin .sr {
+  width: 250px;
+  float: left;
+}
+#signin .hq {
+  width: 125px;
+  float: right;
+}
+#signin #dl {
+  margin-top: 20px;
+}
+#signin input {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 20px;
+}
+#signin #ffa {
+  display: flex;
+  justify-content: space-around;
+}
+#signin #ffa p {
+  display: flex;
+  flex-direction: column;
+}
+#signin #ffa img {
+  width: 40px;
+  height: 40px;
+}
+.dw-footer {
+  height: 140px;
+  background-color: rgba(0, 14, 34, 0.9);
+  color: #687593;
+  line-height: 40px;
+}
+.dw-footer #footers {
+  width: 400px;
+  margin: auto;
+}
+.dw-footer .dw-footer-menu li {
+  float: left;
+}
+.dw-footer .dw-footer-menu li a {
+  margin-left: 10px;
+}
+.dw-footer #last {
+  width: 700px;
+  margin: auto;
+}
+.dw-footer .copyright-list {
+  width: 700px;
+  margin: auto;
+}
+#dl {
+  background-color: rgba(0, 14, 34, 0.9);
+  border: none;
+  border: 2px solid #ebca5e;
+}
+#zc {
+  background-color: rgba(0, 14, 34, 0.9);
+  border: none;
+  border: 2px solid #ebca5e;
+}
+label.error{color: red;}

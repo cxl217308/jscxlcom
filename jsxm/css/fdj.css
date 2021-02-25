@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#top {
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 2;
+}
+
+#nav1 {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    background-color: rgba(0, 14, 34, 0.9);
+}
+
+#nav1 h2 {
+    float: left;
+    color: white;
+}
+
+#nav1 img {
+    width: 300px;
+    height: 20px;
+}
+
+#nva2 {
+    width: 100%;
+    height: 55px;
+    background-color: rgba(129, 129, 129, 0.35);
+}
+
+#nva2 div {
+    margin: auto;
+    width: 600px;
+}
+
+#nva2 li {
+    float: left;
+}
+
+#nva2 li a {
+    color: white;
+    line-height: 55px;
+    margin-left: 13px;
+}
+
+#tanc{
+ 
+   padding-top: 145px;
+}
+#tanc p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.mx{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-around;
+}
+.mx div{
+    margin-top: 10px;
+}
+.my {
+    width: 100px;
+    float: right;
+    display: flex;
+    justify-content: space-around
+}
+
+.icon-wode {
+    color: white;
+    font-size: 25px
+}
+
+.icon-gouwuche {
+    color: white;
+    font-size: 25px
+}
+
+#cart {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 475px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid rgb(211, 209, 209);
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    display: none;
+}
+
+#carttop {
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgb(211, 209, 209);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+#carttop .icon-quxiao {
+    color: rgba(0, 14, 34, 0.9);
+    font-size: 25px;
+}
+
+#carttop .icon-gouwuche {
+    color: rgba(0, 14, 34, 0.9);
+    font-size: 25px;
+}
+
+#cartcenter {
+    flex: 1;
+}
+
+#cartbuut {
+    width: 100%;
+    height: 177px;
+    text-align: center;
+}
+
+#cartbuut #ps {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+
+#cartbuut #zj {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    margin-top: 30px;
+}
+
+#cartbuut button {
+    background-color: rgba(0, 14, 34, 0.9);
+    margin-top: 30px;
+    color: rgb(243, 240, 63);
+    width: 415px;
+    height: 50px;
+    border: none;
+    outline: none;
+
+}
+#types{
+    height: 219px;
+   background-color: rgb(212, 212, 212);
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+#types p{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    background-color: #ffffffbf;
+    margin-left: 10%;
+    justify-content: space-around;
+    line-height: 50px;
+    color: black;
+}
+#types p a{
+    color: black;  
+}
+#shang{
+    display: block;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: white;
+   position: relative;
+   top: -20px;
+   left: 45%;
+   text-align: center;
+   line-height: 40px;
+   font-size: 20px;
+   color: black;
+}
+#uls{
+    height: 270px;
+    width: 80%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin: auto;
+    padding-left: 30px;
+    line-height:40px; 
+}
+#uls dd a{
+    color: rgb(180, 180, 180);
+    font-size: 13px;
+}
+#uls dt a{
+    color: black; 
+   
+}
+#ulse img{
+    width: 30px;
+    height: 30px;
+}
+#uls div{
+    flex: 1;
+}
+#foot{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#foota li{
+    float: left;
+    
+}
+#footc li{
+    float: left;
+    margin-top: 20px;
+}
+#foota li a{
+ color: #ccc;
+ font-size: 13px;
+ margin-left: 10px;
+
+}
+#footc li a{
+    color: #ccc;
+    font-size: 13px;
+    margin-left: 10px;
+    
+}
+
+#footb{
+    float: left;
+    color: #ccc;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#footc{
+    float: right;
+}
+#foots{
+    display: flex;
+    justify-content: space-between;
+}
+#sinlog{
+    width: 200px;
+    height: 224px;
+    background-color: white;
+    position: fixed;
+    top: 70px;
+    right: 40px;
+}
+.icon-sanjiaoxing_shang{
+font-size: 30px;
+position: absolute;
+top: -18px;
+right: 10px;
+color: white;
+}
+#sinloga{
+    width: 160px;
+    height: 180px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(0, 14, 34, 0.9);
+}
+.dl{
+    background-color: rgba(0, 14, 34, 0.9);
+    color: yellow;
+}
+#sinloga hr{
+    margin-top: 20px
+}
+#sinloga button{
+    width: 128px;
+    height: 34px;
+    border: none;
+    outline: none; 
+}
+#cen{
+    width: 1372px;
+    margin: auto;   
+}
+#cenimga{
+   display: flex;
+   height: 693px; 
+}
+#cenimga div{
+    width: 693px;
+    height: 693px;
+}
+#cenimga div img{
+    width: 679px;
+    height: 679px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#cenimgb{
+    display: flex;
+    height: 693px; 
+ }
+ #cenimgb div{
+     width: 693px;
+     height: 693px;
+ }
+ #cenimgb div img{
+     width: 679px;
+     height: 679px;
+     text-align: center;
+     margin-top: 10px;
+     margin-left: 5px;
+ }
+#cenms{
+    height: 275px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: rgb(240, 240, 240);
+  padding-left: 30px;
+  margin-top: 20px;
+}
+#cenms p {
+    line-height: 25px;
+    font-size: 13px;
+}
+#cenmsa{
+    height: 230px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  background-color: rgb(240, 240, 240);
+  padding-left: 20px;
+  margin-top: 20px;
+}
+#cenmsa p {
+    line-height: 25px;
+    font-size: 13px;
+}
+#xdwz{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 20px;
+}
+#sbxd{
+    height: 474.5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#lbs {
+    
+    width:280px;
+   height: 90%;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+#lbs img {
+    width: 100%;
+    height: 262px;
+    background-color: rgb(247, 244, 244);
+}
+
+#xdsp{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 20px;
+}
+#colors {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#sbxl{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
